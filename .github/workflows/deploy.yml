@@ -23,9 +23,9 @@ jobs:
 
       # - name: Install CDK
       #   run: npm install -g aws-cdk
-      - name: CDK Bootstrapz
-        working-directory: awscdk
-        run: cdk bootstrap
+      # - name: CDK Bootstrapz
+      #   working-directory: awscdk
+      #   run: cdk bootstrap
 
       - name: CDK Deploy
         working-directory: awscdk
