@@ -21,8 +21,8 @@ jobs:
       - name: Install Python packages
         run: pip3 install -r requirements.txt
 
-      - name: Install CDK
-        run: npm install -g aws-cdk
+      # - name: Install CDK
+      #   run: npm install -g aws-cdk
 
       - name: CDK Deploy
         run: cdk deploy --require-approval never
