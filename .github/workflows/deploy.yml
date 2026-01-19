@@ -6,7 +6,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: [self-hosted, ec2]
+    runs-on: awscdkrunner
 
     steps:
       - name: Checkout repo
