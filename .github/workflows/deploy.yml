@@ -28,5 +28,4 @@ jobs:
       #   run: cdk bootstrap
 
       - name: CDK Deploy
-        working-directory: awscdk
         run: cdk deploy --require-approval never

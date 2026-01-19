@@ -2,7 +2,7 @@
 import os
 import aws_cdk as cdk
 
-from ec2_deployer.ec2_deployer_stack import Ec2DeployerStack
+from awscdk.ec2_deployer.ec2_deployer_stack import Ec2DeployerStack
 
 app = cdk.App()
 
